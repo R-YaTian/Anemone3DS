@@ -383,7 +383,7 @@ int main(void)
     init_services();
     CFG_Language lang;
     CFGU_GetSystemLanguage(&lang);
-    language = init_strings(lang);
+    language = language_chs;
     init_screens();
 
     svcCreateMutex(&update_icons_mutex, true);
@@ -441,7 +441,7 @@ int main(void)
         hidScanInput();
         u32 kDown = hidKeysDown();
         u32 kHeld = hidKeysHeld();
-        u32 kUp = hidKeysUp();
+        //u32 kUp = hidKeysUp();
 
         current_list = &lists[current_mode];
 

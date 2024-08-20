@@ -59,6 +59,7 @@ dkms.conf
 build/
 out/
 romfs/
+.vscode/
 
 # Sublime stuff
 .clang_complete

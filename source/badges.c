@@ -89,7 +89,7 @@ Result ACTU_GetAccountDataBlock(u32 slot, u32 size, u32 blockId, u32 *output)
 
 void remove_exten(u16 *filename)
 {
-    for (int i = 0; i < strulen(filename, 0x8A); ++i)
+    for (size_t i = 0; i < strulen(filename, 0x8A); ++i)
     {
         if (filename[i] == '.') 
         {

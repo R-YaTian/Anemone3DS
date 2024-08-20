@@ -186,11 +186,11 @@ typedef struct {
 
 typedef enum {
     LANGUAGE_EN,
-
     LANGUAGE_AMOUNT,
 } Language_Name;
 
 Language_s init_strings(CFG_Language lang);
 extern Language_s language;
+extern const Language_s language_chs;
 
 #endif

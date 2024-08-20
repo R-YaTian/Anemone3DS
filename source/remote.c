@@ -563,7 +563,7 @@ bool themeplaza_browser(RemoteMode mode)
         hidScanInput();
         u32 kDown = hidKeysDown();
         u32 kHeld = hidKeysHeld();
-        u32 kUp = hidKeysUp();
+        //u32 kUp = hidKeysUp();
 
         if (kDown & KEY_START)
         {
@@ -1180,7 +1180,7 @@ redirect: // goto here if we need to redirect
         break;
     case HTTPC_ERROR:
         DEBUG("httpc error %lx\n", _header.result_code);
-        if (_header.result_code == 0xd8a0a03c)
+        if (_header.result_code == (Result) 0xd8a0a03c)
         {
             // SSL failure - try curl?
             res = curl_http_get(url, filename, buf, size, acceptable_mime_types);
