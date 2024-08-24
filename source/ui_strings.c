@@ -34,11 +34,11 @@ const Language_s language_chs = {
             .info_line = NULL,
             .instructions = {
                 {
-                "\uE000 按住以安装",
+                "\uE000 安装主题",
                 "\uE001 随机播放主题"
                 },
                 {
-                    "\uE002 按住获取更多",
+                    "\uE002 更多选项",
                     "\uE003 预览主题"
                 },
                 {
@@ -59,7 +59,7 @@ const Language_s language_chs = {
                     "\uE001 删除已安装的动画"
                 },
                 {
-                    "\uE002 按住获取更多",
+                    "\uE002 更多选项",
                     "\uE003 预览开启动画"
                 },
                 {
@@ -182,9 +182,9 @@ const Language_s language_chs = {
         .switch_splashes = "或 \uE004 切换到开机动画",
         .switch_themes = "或 \uE004 切换到主题",
         .quit = "或        退出",
-        .start_pos = 162, // Adjust x pos of start glyph to line up with quit string
-        .by = "按 ",
-        .selected = "已选定：",
+        .start_pos = 170, // Adjust x pos of start glyph to line up with quit string
+        .by = "作者: ",
+        .selected = "已选择：",
         .sel = "选择：",
         .tp_theme_mode = "主题广场 主题模式",
         .tp_splash_mode = "主题广场 开机动画模式",

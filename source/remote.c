@@ -419,6 +419,7 @@ static void search_menu(Entry_List_s * list)
 
     swkbdInit(&swkbd, SWKBD_TYPE_NORMAL, 2, max_chars);
     swkbdSetHintText(&swkbd, language.remote.tags);
+    swkbdSetFeatures(&swkbd, SWKBD_PREDICTIVE_INPUT);
 
     swkbdSetButton(&swkbd, SWKBD_BUTTON_LEFT, language.remote.cancel, false);
     swkbdSetButton(&swkbd, SWKBD_BUTTON_RIGHT, language.remote.search, true);
