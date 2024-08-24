@@ -383,7 +383,8 @@ int main(void)
     init_services();
     CFG_Language lang;
     CFGU_GetSystemLanguage(&lang);
-    language = language_chs;
+    if (lang != CFG_LANGUAGE_ZH) lang = CFG_LANGUAGE_ZH; // lock language to zh-Hans
+    language = init_strings(lang);
     init_screens();
 
     svcCreateMutex(&update_icons_mutex, true);

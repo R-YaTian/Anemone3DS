@@ -42,12 +42,12 @@ const Language_s language_chs = {
                     "\uE003 预览主题"
                 },
                 {
-                    "\uE004 切换至开机动画",
+                    "\uE004 切换到开机动画",
                     "\uE005 扫描二维码"
                 },
                 {
                     "退出",
-                    "从SD卡中删除"
+                    "从 SD 卡中删除"
                 }
             }
         },
@@ -63,12 +63,12 @@ const Language_s language_chs = {
                     "\uE003 预览开启动画"
                 },
                 {
-                    "\uE004 切换至主题",
+                    "\uE004 切换到主题",
                     "\uE005 扫描二维码"
                 },
                 {
                     "退出",
-                    "从SD卡中删除"
+                    "从 SD 卡中删除"
                 }
             }
         }
@@ -83,7 +83,7 @@ const Language_s language_chs = {
                 "\uE07A 随机安装"
             },
             {
-                "\uE07B 只安装BGM",
+                "\uE07B 只安装 BGM",
                 "\uE07C 只安装主题图片"
             },
             {
@@ -129,11 +129,11 @@ const Language_s language_chs = {
                 },
                 {
                     "\uE07B 浏览主题广场",
-                    "\uE07C 安装 Badges"
+                    "\uE07C 安装徽章"
                 },
                 {
                     "\uE004 排序菜单",
-                    "\uE005 导出菜单"
+                    "\uE005 转储菜单"
                 },
                 {
                     "退出",
@@ -142,14 +142,14 @@ const Language_s language_chs = {
             }
         },
         {
-            .info_line = "\uE001 退出导出菜单",
+            .info_line = "\uE001 退出转储菜单",
             .instructions = {
                 {
-                    "\uE079 导出当前主题",
-                    "\uE07A 导出全部主题"
+                    "\uE079 转储当前主题",
+                    "\uE07A 转储全部主题"
                 },
                 {
-                    "\uE07B 导出 Badges",
+                    "\uE07B 转储徽章",
                     NULL
                 },
                 {
@@ -165,121 +165,121 @@ const Language_s language_chs = {
     },
     .camera = 
     {
-        .quit = "Press \uE005 To Quit",
-        .thread_error = "Capture cam thread creation failed\nPlease report this to the developers",
-        .zip_not_theme_splash = "Zip downloaded is neither\na splash nor a theme",
-        .file_not_zip = "File downloaded isn't a zip.",
-        .download_failed = "Download failed.",
-        .badge_question = "Theme or splash not detected.\nIs this a badge?",
+        .quit = "按 \uE005 退出",
+        .thread_error = "摄像头拍照线程创建失败\n请向开发人员报告此问题",
+        .zip_not_theme_splash = "下载的 zip 文件既不是\n开机动画也不是主题",
+        .file_not_zip = "下载的文件不是 zip 格式。",
+        .download_failed = "下载失败。",
+        .badge_question = "未检测到主题或开机动画。\n此是否为徽章？",
     },
     .draw = 
     {
-        .theme_mode = "Theme mode",
-        .splash_mode = "Splash mode",
-        .no_themes = "No theme found",
-        .no_splashes = "No splash found",
-        .qr_download = "Press \uE005 to download from QR",
-        .switch_splashes = "Or \uE004 to switch to splashes",
-        .switch_themes = "Or \uE004 to switch to themes",
-        .quit = "Or        to quit",
+        .theme_mode = "主题模式",
+        .splash_mode = "开机动画模式",
+        .no_themes = "未找到主题",
+        .no_splashes = "未找到开机动画",
+        .qr_download = "按 \uE005 扫描二维码下载",
+        .switch_splashes = "或 \uE004 切换到开机动画",
+        .switch_themes = "或 \uE004 切换到主题",
+        .quit = "或        退出",
         .start_pos = 162, // Adjust x pos of start glyph to line up with quit string
-        .by = "By ",
-        .selected = "Selected:",
-        .sel = "Sel.:",
-        .tp_theme_mode = "ThemePlaza Theme mode",
-        .tp_splash_mode = "ThemePlaza Splash mode",
-        .tp_badge_mode = "ThemePlaza Badge mode",
-        .search = "Search...",
-        .page = "Page:",
-        .err_quit = "Press \uE000 to quit.",
-        .warn_continue = "Press \uE000 to continue.",
-        .yes_no = "\uE000 Yes   \uE001 No",
-        .load_themes = "Loading themes, please wait...",
-        .load_splash = "Loading splashes, please wait...",
-        .load_icons = "Loading icons, please wait...",
-        .install_splash = "Installing a splash...",
-        .delete_splash = "Deleting installed splash...",
-        .install_theme = "Installing a single theme...",
-        .install_shuffle = "Installing shuffle themes...",
-        .install_bgm = "Installing BGM-only theme...",
-        .install_no_bgm = "Installing theme without BGM...",
-        .downloading = "Downloading...",
-        .checking_dl = "Checking downloaded file...",
-        .delete_sd = "Deleting from SD...",
-        .download_themes = "Downloading theme list, please wait...",
-        .download_splashes = "Downloading splash list, please wait...",
-        .download_badges = "Downloading badge list, please wait...",
-        .download_preview = "Downloading preview, please wait...",
-        .download_bgm = "Downloading BGM, please wait...",
-        .dump_single = "Dumping theme, please wait...",
-        .dump_all_official = "Dumping official themes, please wait...",
-        .dump_badges = "Dumping installed badges, please wait...",
-        .install_badges = "Installing badges, please wait...",
-        .shuffle = "Shuffle: %i/10",
+        .by = "按 ",
+        .selected = "已选定：",
+        .sel = "选择：",
+        .tp_theme_mode = "主题广场 主题模式",
+        .tp_splash_mode = "主题广场 开机动画模式",
+        .tp_badge_mode = "主题广场 徽章模式",
+        .search = "搜索...",
+        .page = "页：",
+        .err_quit = "按 \uE000 退出。",
+        .warn_continue = "按 \uE000 继续。",
+        .yes_no = "\uE000 是   \uE001 否",
+        .load_themes = "正在载入主题，请稍候...",
+        .load_splash = "正在载入开机动画，请稍候...",
+        .load_icons = "正在载入图标，请稍候...",
+        .install_splash = "正在安装开机动画...",
+        .delete_splash = "正在删除已安装的开机动画...",
+        .install_theme = "正在安装单个主题...",
+        .install_shuffle = "正在安装随机主题...",
+        .install_bgm = "正在安装只有 BGM 的主题...",
+        .install_no_bgm = "正在安装无 BGM 的主题...",
+        .downloading = "正在下载...",
+        .checking_dl = "正在检查已下载的文件...",
+        .delete_sd = "正在从 SD 卡中删除...",
+        .download_themes = "正在下载主题列表，请稍候...",
+        .download_splashes = "正在下载开机动画列表，请稍候...",
+        .download_badges = "正在下载徽章列表，请稍候...",
+        .download_preview = "正在下载预览，请稍候...",
+        .download_bgm = "正在下载 BGM，请稍候...",
+        .dump_single = "正在转储主题，请稍候...",
+        .dump_all_official = "正在转储官方主题，请稍候...",
+        .dump_badges = "正在转储已安装的徽章，请稍候...",
+        .install_badges = "正在安装徽章，请稍候...",
+        .shuffle = "随机： %i/10",
     },
     .fs =
     {
-        .illegal_input = "Input must not contain:\n" ILLEGAL_CHARS,
-        .new_or_overwrite = "Choose a new filename or tap Overwrite",
-        .cancel = "Cancel",
-        .overwrite = "Overwrite",
-        .rename = "Rename",
-        .swkbd_fail = "???\nTry a USB keyboard", // Should never be used
-        .sd_full = "SD card is full.\nDelete some themes to make space.",
-        .fs_error = "Error:\nGet a new SD card.",
+        .illegal_input = "输入不能包含：\n" ILLEGAL_CHARS,
+        .new_or_overwrite = "选择新的文件名或点击覆盖",
+        .cancel = "取消",
+        .overwrite = "覆盖",
+        .rename = "重命名",
+        .swkbd_fail = "？？？\n请尝试用 USB 键盘", // Should never be used
+        .sd_full = "SD 卡已满。\n删除一些主题以腾出空间。",
+        .fs_error = "错误：\n请使用新的 SD 卡。",
     },
     .loading =
     {
-        .no_preview = "No preview found.",
+        .no_preview = "未找到预览。",
     },
     .main =
     {
-        .position_too_big = "The new position has to be\nsmaller or equal to the\nnumber of entries!",
-        .position_zero = "The new position has to\nbe positive!",
-        .jump_q = "Where do you want to jump to?\nMay cause icons to reload.",
-        .cancel = "Cancel",
-        .jump = "Jump",
-        .no_theme_extdata = "Theme extdata does not exist!\nSet a default theme from the home menu.",
-        .loading_qr = "Loading QR Scanner...",
-        .no_wifi = "Please connect to Wi-Fi before scanning QR codes",
-        .qr_homebrew = "QR scanning doesnt work from the Homebrew\nLauncher, use the ThemePlaza browser instead.",
-        .camera_broke = "Your camera seems to have a problem,\nunable to scan QR codes.",
-        .too_many_themes = "You have too many themes selected.",
-        .not_enough_themes = "You don't have enough themes selected.",
-        .uninstall_confirm = "Are you sure you would like to delete\nthe installed splash?",
-        .delete_confirm = "Are you sure you would like to delete this?",
+        .position_too_big = "新位置必须\n小于或等于\n条目数！",
+        .position_zero = "新位置必须\n为正数！",
+        .jump_q = "要跳转至何处？\n可能导致图标重新加载。",
+        .cancel = "取消",
+        .jump = "跳转",
+        .no_theme_extdata = "主题追加数据不存在！\n请在 HOME 菜单设置默认主题。",
+        .loading_qr = "正在载入二维码扫描器...",
+        .no_wifi = "扫描二维码前请先连接 Wi-Fi",
+        .qr_homebrew = "二维码扫描功能无法通过 HBL 运行，\n请改用主题广场浏览器。",
+        .camera_broke = "机器摄像头似乎有问题，\n无法扫描二维码。",
+        .too_many_themes = "选择的主题数量过多。",
+        .not_enough_themes = "选择的主题数量不足。",
+        .uninstall_confirm = "是否确定要删除\n已安装的开机动画。",
+        .delete_confirm = "是否确定要删除？",
     },
     .remote =
     {
-        .no_results = "No results for this search.",
-        .check_wifi = "Couldn't download Theme Plaza data.\nMake sure WiFi is on.",
-        .new_page_big = "The new page has to be\nsmaller or equal to the\nnumber of pages!",
-        .new_page_zero = "The new position has to\nbe positive!",
-        .jump_page = "Which page do you want to jump to?",
-        .cancel = "Cancel",
-        .jump = "Jump",
-        .tags = "Which tags do you want to search for?",
-        .search = "Search",
-        .parental_fail = "Parental Control validation failed!\nBrowser Access restricted.",
-        .zip_not_found = "ZIP not found at this URL\nIf you believe this is an error, please\ncontact the site administrator",
-        .generic_httpc_error = "Error in HTTPC sysmodule - 0x%08lx.\nIf you are seeing this, please contact an\nAnemone developer on the Theme Plaza Discord.",
-        .http303_tp = "HTTP 303 See Other (Theme Plaza)\nHas this theme been approved?",
-        .http303 = "HTTP 303 See Other\nDownload the resource directly\nor contact the site administrator.",
-        .http404 = "HTTP 404 Not Found\nHas this theme been approved?",
-        .http_err_url = "HTTP %s\nCheck that the URL is correct.",
-        .http_errcode_generic = "HTTP %s\nContact the site administrator.",
-        .http401 = "401 Unauthorized",
-        .http403 = "403 Forbidden",
-        .http407 = "407 Proxy Authentication Required",
-        .http414 = "HTTP 414 URI Too Long\nThe QR code points to a really long URL.\nDownload the file directly.",
-        .http418 = "HTTP 418 I'm a teapot\nContact the site administrator.",
-        .http426 = "HTTP 426 Upgrade Required\nThe 3DS cannot connect to this server.\nContact the site administrator.",
-        .http451 = "HTTP 451 Unavailable for Legal Reasons\nSome entity is preventing access\nto the host server for legal reasons.",
-        .http500 = "HTTP 500 Internal Server Error\nContact the site administrator.",
-        .http502 = "HTTP 502 Bad Gateway\nContact the site administrator.",
-        .http503 = "HTTP 503 Service Unavailable\nContact the site administrator.",
-        .http504 = "HTTP 504 Gateway Timeout\nContact the site administrator.",
-        .http_unexpected = "HTTP %u\nIf you believe this is unexpected, please\ncontact the site administrator.",
+        .no_results = "此次搜索未找到结果。",
+        .check_wifi = "无法下载主题广场数据。\n请确认 WiFi 已开启。",
+        .new_page_big = "新页面必须\n小于或等于\n页数！",
+        .new_page_zero = "新位置必须\n为正数！",
+        .jump_page = "要跳转至哪个页面？",
+        .cancel = "取消",
+        .jump = "跳转",
+        .tags = "要搜索哪些标签？",
+        .search = "搜索",
+        .parental_fail = "家长控制验证失败！\n浏览器访问受限。",
+        .zip_not_found = "此链接上未找到 ZIP 文件\n如果您认为这是错误的，\n请联系网站管理员",
+        .generic_httpc_error = "HTTPC 系统模块错误 - 0x%08lx。\n如果您看到此信息，请联系\nTheme Plaza Discord 上的 Anemone 开发人员。",
+        .http303_tp = "HTTP 303 查看其他（主题广场）\n此主题是否已获得认证？",
+        .http303 = "HTTP 303 查看其他\n直接下载资源\n或联系网站管理员。",
+        .http404 = "HTTP 404 未找到\n此主题是否已获得认证？",
+        .http_err_url = "HTTP %s\n请检查链接是否正确。",
+        .http_errcode_generic = "HTTP %s\n请联系网站管理员。",
+        .http401 = "401 未授权",
+        .http403 = "403 禁止",
+        .http407 = "407 需要网络代理验证",
+        .http414 = "HTTP 414 链接地址过长\n二维码指向的链接太长。\n请直接下载文件。",
+        .http418 = "HTTP 418 我是一个茶壶（编程梗）\n请联系网站管理员。",
+        .http426 = "HTTP 426 需要升级\n3DS 无法连接到该服务器。\n请联系网站管理员。",
+        .http451 = "HTTP 451 法律原因不可用\n由于法律因素某些实体组织\n阻止访问此主机服务器。",
+        .http500 = "HTTP 500 内部服务器错误\n请联系网站管理员。",
+        .http502 = "HTTP 502 错误网关\n请联系网站管理员。",
+        .http503 = "HTTP 503 服务器不可用\n请联系网站管理员。",
+        .http504 = "HTTP 504 网关超时\n请联系网站管理员。",
+        .http_unexpected = "HTTP %u\n如果您认为这是意外，\n请联系网站管理员。",
     },
     .remote_instructions =
     {
@@ -287,19 +287,19 @@ const Language_s language_chs = {
             .info_line = NULL,
             .instructions = {
                 {
-                    "\uE000 Download theme",
-                    "\uE001 Go back"
+                    "\uE000 下载主题",
+                    "\uE001 返回"
                 },
                 {
-                    "\uE002 More options",
-                    "\uE003 Preview theme"
+                    "\uE002 更多选项",
+                    "\uE003 预览主题"
                 },
                 {
-                    "\uE004 Previous page",
-                    "\uE005 Next page"
+                    "\uE004 上一页",
+                    "\uE005 下一页"
                 },
                 {
-                    "Exit",
+                    "退出",
                     NULL
                 }
             }
@@ -308,19 +308,19 @@ const Language_s language_chs = {
             .info_line = NULL,
             .instructions = {
                 {
-                    "\uE000 Download splash",
-                    "\uE001 Go back"
+                    "\uE000 下载开机动画",
+                    "\uE001 返回"
                 },
                 {
-                    "\uE002 More options",
-                    "\uE003 Preview splash"
+                    "\uE002 更多选项",
+                    "\uE003 预览开机动画"
                 },
                 {
-                    "\uE004 Previous page",
-                    "\uE005 Next page"
+                    "\uE004 上一页",
+                    "\uE005 下一页"
                 },
                 {
-                    "Exit",
+                    "退出",
                     NULL
                 }
             }
@@ -329,19 +329,19 @@ const Language_s language_chs = {
             .info_line = NULL,
             .instructions = {
                 {
-                    "\uE000 Download badges",
-                    "\uE001 Go back"
+                    "\uE000 下载徽章",
+                    "\uE001 返回"
                 },
                 {
-                    "\uE002 More options",
-                    "\uE003 Preview badges"
+                    "\uE002 更多选项",
+                    "\uE003 预览徽章"
                 },
                 {
-                    "\uE004 Previous page",
-                    "\uE005 Next page"
+                    "\uE004 上一页",
+                    "\uE005 下一页"
                 },
                 {
-                    "Exit",
+                    "退出",
                     NULL
                 }
             }
@@ -350,64 +350,64 @@ const Language_s language_chs = {
     .remote_extra_instructions =
     {
         {
-            .info_line = "\uE001 Leave extra menu",
+            .info_line = "\uE001 退出杂项菜单",
             .instructions = {
                 {
-                    "\uE079 Jump to page",
-                    "\uE07A Search tags"
+                    "\uE079 跳转到页",
+                    "\uE07A 搜索标签"
                 },
                 {
                     NULL,
-                    "\uE07C Reload without cache"
+                    "\uE07C 不使用缓存重新加载"
                 },
                 {
-                    "\uE004 Switch to Badges",
-                    "\uE005 Switch to Splashes"
+                    "\uE004 切换到徽章",
+                    "\uE005 切换到开机动画"
                 },
                 {
-                    "Exit",
+                    "退出",
                     NULL
                 }
             }
         },
         {
-            .info_line = "\uE001 Leave extra menu",
+            .info_line = "\uE001 退出杂项菜单",
             .instructions = {
                 {
-                    "\uE079 Jump to page",
-                    "\uE07A Search tags"
+                    "\uE079 跳转到页",
+                    "\uE07A 搜索标签"
                 },
                 {
                     NULL,
-                    "\uE07C Reload without cache"
+                    "\uE07C 不使用缓存重新加载"
                 },
                 {
-                    "\uE004 Switch to Themes",
-                    "\uE005 Switch to Badges"
+                    "\uE004 切换到主题",
+                    "\uE005 切换到徽章"
                 },
                 {
-                    "Exit",
+                    "退出",
                     NULL
                 }
             }
         },
         {
-            .info_line = "\uE001 Leave extra menu",
+            .info_line = "\uE001 退出杂项菜单",
             .instructions = {
                 {
-                    "\uE079 Jump to page",
-                    "\uE07A Search tags"
+                    "\uE079 跳转到页",
+                    "\uE07A 搜索标签"
                 },
                 {
                     NULL,
-                    "\uE07C Reload without cache"
+                    "\uE07C 不使用缓存重新加载"
                 },
                 {
-                    "\uE004 Switch to Splashes",
-                    "\uE005 Switch to Themes"
+                    "\uE004 切换到开机动画",
+                    "\uE005 切换到主题"
                 },
                 {
-                    "Exit",
+                    "退出",
                     NULL
                 }
             }
@@ -415,21 +415,21 @@ const Language_s language_chs = {
     },
     .splashes =
     {
-        .no_splash_found = "No splash.bin or splashbottom.bin found.\nIs this a splash?",
-        .splash_disabled = "WARNING: Splashes are disabled in Luma Config",
+        .no_splash_found = "未找到 splash.bin 或 splashbottom.bin 文件。\n此是否为开机动画包？",
+        .splash_disabled = "警告：Luma 配置中已禁用开机动画",
     },
     .themes =
     {
-        .no_body_found = "No body_LZ.bin found - is this a theme?",
-        .mono_warn = "One or more installed themes use mono audio.\nMono audio causes a number of issues.\nCheck the wiki for more information.",
-        .illegal_char = "Illegal character used.",
-        .name_folder = "Name of output folder",
-        .cancel = "Cancel",
-        .done = "Done"
+        .no_body_found = "未找到 body_LZ.bin 文件 - 此是否为主题包？",
+        .mono_warn = "一个或多个主题使用单声道音频。\n单声道音频会导致许多问题。\n请查看 wiki 以获取更多信息。",
+        .illegal_char = "使用了非法字符。",
+        .name_folder = "输出文件夹名称",
+        .cancel = "取消",
+        .done = "完成"
     },
     .badges = 
     {
-        .extdata_locked = "Ext Data Locked\nTry pressing the Home Button and then returning\nto Anemone3DS, or using the CIA version instead.\nDebug: 0x%08lx"
+        .extdata_locked = "追加数据已锁定\n请尝试按下 Home 键\n再返回 Anemone3DS，或改用 CIA 版本。\n调试代码: 0x%08lx"
     }
 };
 
@@ -2471,21 +2471,16 @@ Language_s init_strings(CFG_Language lang)
 {
     switch (lang)
     {
-        //case CFG_LANGUAGE_JP:
         case CFG_LANGUAGE_FR:
             return language_french;
-        //case CFG_LANGUAGE_DE:
-        //case CFG_LANGUAGE_IT:
         case CFG_LANGUAGE_ES:
             return language_spanish;
-        //case CFG_LANGUAGE_ZH:
+        case CFG_LANGUAGE_ZH:
+            return language_chs;
         case CFG_LANGUAGE_KO:
             return language_korean;
-        //case CFG_LANGUAGE_NL:
         case CFG_LANGUAGE_PT:
             return language_portuguese;
-        //case CFG_LANGUAGE_RU:
-        //case CFG_LANGUAGE_TW:
         case CFG_LANGUAGE_EN:
             return language_english;
         default:

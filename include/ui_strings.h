@@ -191,6 +191,5 @@ typedef enum {
 
 Language_s init_strings(CFG_Language lang);
 extern Language_s language;
-extern const Language_s language_chs;
 
 #endif
