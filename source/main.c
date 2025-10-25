@@ -381,8 +381,7 @@ int main(void)
 {
     srand(time(NULL));
     init_services();
-    CFG_Language lang;
-    CFGU_GetSystemLanguage(&lang);
+    CFG_Language lang = get_system_language();
     if (lang != CFG_LANGUAGE_ZH) lang = CFG_LANGUAGE_ZH; // lock language to zh-Hans
     language = init_strings(lang);
     init_screens();
