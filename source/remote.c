@@ -1192,7 +1192,7 @@ redirect: // goto here if we need to redirect
                 return res;
             }
 
-            if(_header.result_code == 0xd8a0a028)
+            if(_header.result_code == (Result)0xd8a0a028)
             {
                 snprintf(err_buf, ERROR_BUFFER_SIZE, zip_not_available);
             }
